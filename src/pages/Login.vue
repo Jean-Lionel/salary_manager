@@ -11,6 +11,9 @@
         <label>Password </label>
         <input type="password" v-model="password" />
       </div>
+      <div>
+        <button>Connexion</button>
+      </div>
     </div>
   </div>
 </template>
