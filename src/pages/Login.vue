@@ -1,6 +1,8 @@
 <template>
-  <div>
-    <div>AUTHENTIFICATION</div>
+  <div class="auth">
+    <div>
+      <h3>AUTHENTIFICATION</h3>
+    </div>
 
     <div>
       <div>
@@ -28,3 +30,14 @@ export default {
   },
 };
 </script>
+
+<style>
+  .auth {
+    margin: 0 auto;
+    width: 35%;
+    background-color: rgb(221, 221, 235);
+  }
+
+  
+
+</style>
