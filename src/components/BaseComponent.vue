@@ -1,16 +1,17 @@
 <template>
+  <div>
+    <header>
+      <navigation-bar />
+    </header>
     <div>
-        <header>
-            <div id="nav">
-                <router-link to="/">Home</router-link> |
-                <router-link to="/about">About</router-link> |
-                <router-link to="/tasks"> TASK </router-link> |
-                <router-link to="/todo"> To do </router-link> |
-            </div>
-        </header>
-
-        <div>
-              <router-view/>
-        </div>
+      <router-view />
     </div>
+  </div>
 </template>
+
+<script>
+import NavigationBar from "./navigation/NavigationBar.vue";
+export default {
+  components: { NavigationBar },
+};
+</script>
