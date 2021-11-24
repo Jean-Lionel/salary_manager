@@ -9,7 +9,7 @@ import Login from "./pages/Login.vue";
 export default {
   data() {
     return {
-      isLogin: true,
+      isLogin: false,
     };
   },
   components: {
