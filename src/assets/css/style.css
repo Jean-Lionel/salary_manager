@@ -8,8 +8,9 @@
 
   .title {
     width: 100%;
-    background: linear-gradient(180deg, rgba(12, 137, 240, 0.7) 40%, rgba(116, 15, 231, 0.9) 60%), url(../ressources/article-img.jpg);
+    background: linear-gradient(180deg, rgba(12, 137, 240, 0.7) 40%, rgba(169, 125, 219, 0.9) 70%), url(../ressources/article-img.jpg);
     color: aliceblue;
+    background-position: left;
   }
 
   .title h1,
@@ -27,6 +28,13 @@
      padding: 5px;
      border: none;
      border-bottom: 2px solid saddlebrown;
+   }
+
+   .form  input:focus {
+     width: 50%;
+     padding: 5px;
+     border: 1px solid rgb(0, 217, 255);
+     border-bottom: 2px solid rgb(19, 47, 139);
    }
 
     .form label{

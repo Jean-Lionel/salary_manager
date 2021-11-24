@@ -1,0 +1,5 @@
+body {
+  width: 98%;
+    background: linear-gradient(180deg, rgba(15, 29, 24, 0.7) 20%,  rgba(8, 127, 173, 0.9) 60%), url(./linkedin.png);
+    color: aliceblue;
+}
