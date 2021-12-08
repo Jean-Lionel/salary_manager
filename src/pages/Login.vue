@@ -6,15 +6,15 @@
     </div>
 
     <div class="form">
-      <div class="field" >
+      <div class="field">
         <label>Login </label>
-        <input type="text" v-model="userName" placeholder="username"/>
+        <input type="text" v-model="userName" placeholder="username" />
       </div>
-      <div class="field" >
+      <div class="field">
         <label>Password </label>
         <input type="password" v-model="password" />
       </div>
-      <div class="field" >
+      <div class="field">
         <button>Connexion</button>
       </div>
     </div>
@@ -29,10 +29,19 @@ export default {
       password: "",
     };
   },
+  methods: {
+    fetchData() {
+      fetch(`http://localhost:8080/users`)
+        .then((res) => res.json())
+        .then((data) => {
+          console.log(data);
+          // this.data = data;
+        });
+    },
+  },
 };
 </script>
 
 <style scoped>
-  
 
 </style>
