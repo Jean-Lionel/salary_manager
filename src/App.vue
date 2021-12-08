@@ -5,7 +5,9 @@
 
 <script>
 import BaseComponent from "@/components/BaseComponent.vue";
+
 import Login from "./pages/Login.vue";
+
 export default {
   data() {
     return {

@@ -2,6 +2,7 @@
   <div>
     <header>
       <navigation-bar />
+      <Sidebar />
     </header>
     <div>
       <router-view />
@@ -10,8 +11,13 @@
 </template>
 
 <script>
+import Sidebar from './navigation/Sidebar.vue';
 import NavigationBar from "./navigation/NavigationBar.vue";
+
 export default {
-  components: { NavigationBar },
+  components: {
+    NavigationBar,
+    Sidebar,
+  },
 };
 </script>
